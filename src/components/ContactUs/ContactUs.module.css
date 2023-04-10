@@ -1,0 +1,74 @@
+.container {
+  background-color: white;
+  width: 800px;
+  padding: 72px 150px 25px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.contact-header {
+  margin: 0;
+  font-size: 30px;
+  color: #333;
+  line-height: 1.2;
+  padding-bottom: 34px;
+}
+.form-block {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.input-field {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  height: 62px;
+  padding: 0 20px 0 23px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #4b2354;
+  line-height: 1.2;
+  border-style: none;
+}
+.input-field:focus,
+.textarea-field:focus {
+  outline: none;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.textarea-field {
+  width: 100%;
+  min-height: 250px;
+  padding: 19px 20px 0 23px;
+  border: none;
+  border-radius: 20px;   
+  font-weight: bold;
+  font-size: 16px;
+  color: #4b2354;
+  line-height: 1.2;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+}
+.input-field::placeholder, .textarea-field::placeholder {
+  color: lightblue;
+}
+.submit-block {
+  text-align: center;
+}
+.submit-button {
+  padding: 0 20px;
+  min-width: 160px;
+  height: 42px;
+  background-color: #bd59d4;
+  border: none;
+  border-radius: 21px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: bold;
+  box-shadow: 0 10px 30px 0 rgba(189, 89, 212, 0.7);
+}
+.submit-button:hover {
+  background-color: #4b2354;
+  cursor: pointer;
+  box-shadow: 0 10px 30px 0 rgba(189, 89, 212, 1);
+}
