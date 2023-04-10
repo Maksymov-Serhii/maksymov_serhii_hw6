@@ -72,3 +72,6 @@
   cursor: pointer;
   box-shadow: 0 10px 30px 0 rgba(189, 89, 212, 1);
 }
+.alert-border {
+  border: 2px solid red;
+}
